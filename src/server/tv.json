@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title":"Жанкешті",
+    "original_title": "Breaking Bad",
+    "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/1yeVJox3rjo2jBKrrihIMj7uoS9.jpg",
+    "release_date": "2008-01-20",
+    "rating": 9.2,
+    "overview": "Химиядан сабақ беретін мектеп мұғалімі Уолтер Уайт өкпе рагына шалдыққанын біледі. Отбасындағы жағдай да мәз емес еді: әйелі Скайлер екінші сәбиге аяғы ауыр, үлкен ұлы церебралды сал ауырымен ауырады. Айықпас дерттен түбінде өлетінін түсінген Уолт отбасына қаржы қалдырып кеткісі келеді. Сол себепті метамфетамин жасаумен айналыса бастайды. Заңсыз бизнесіне көмекші ретінде бұрынғы оқушысы Джесси Пинкманды тартады. Сериал 5 маусымнан, 62 сериядан тұрады.",
+    "genres": ["Драма " ,"Триллер ", "Қылмыстық"],
+    "runtime": 47,
+    "cast": 
+        [
+          {"name" : "Брайан Крэнстон", "profile_path" : "https://image.tmdb.org/t/p/w138_and_h175_face/fnglrIFnI5cK4OAh66AZN86mkFq.jpg"},
+          {"name" : "Анна Ганн", "profile_path" : "https://image.tmdb.org/t/p/w138_and_h175_face/6yLKtfYFWbJp5HAjvCecQCYlmqk.jpg"},
+          {"name" : "Аарон Пол", "profile_path" : "https://image.tmdb.org/t/p/w138_and_h175_face/pAa8H7DjgXENBhyvJy0hVLKvVT6.jpg"},
+          {"name" : "Дин Норрис", "profile_path" : "https://image.tmdb.org/t/p/w138_and_h175_face/owIr4b4VIlJu0m6Drofd3P0qDl5.jpg"},
+          {"name" : "Бетси Брандт", "profile_path" : "https://image.tmdb.org/t/p/w138_and_h175_face/zpmsca1HCVqYrtWXV9xdmsECDTI.jpg"}
+        ],
+    "director" : "Винс Гиллиган"
+    },
+
+    {
+      "id": 2,
+      "title":"Теория большого взрыва ",
+      "original_title": "The theory of Bigbang",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hzPf4iGKjRpDB3JdsGFbobnGxqe.jpg",
+      "release_date": "2007-02-13",
+      "rating": 6.9,
+      "overview": "Два блестящих физика, Леонард и Шелдон, «великие умы», которые понимают, как «работает вселенная». Но их гениальность ничуть не помогает им общаться с людьми, особенно с женщинами. Всё начинает меняться, когда напротив них поселяется красавица Пенни. Стоит также отметить пару странных друзей этих физиков: Воловиц, который любит употреблять фразы на разных языках, включая русский, и Раджеш Кутрапали, теряющий дар речи при виде женщин.",
+      "genres": ["Комедия"],
+      "runtime": 134,
+      "cast": 
+          [
+            {"name" : "Jim Parsons", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/3EdsBXcwZFX2Txjl4uLhLgTU8SK.jpg"},
+            {"name" : "John Ross Bowie", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/kqoON21Li2jSLsBSHP9TYKxJkav.jpg"},
+            {"name" : "Johnny Galecki", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/iY3e0Zw5lygRO4BXbhcSxMcPEb9.jpg"},
+            {"name" : "Kaley Cuoco", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/rlt7XJ0dWik2oReZlxOPLI1L7Vt.jpg"},
+            {"name" : "Simon Helberg", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/zic1gEH1qEMHhbm5Vxwp9J2XrAO.jpg"},
+            {"name" : "Melissa Rauch", "profile_path" : "https://image.tmdb.org/t/p/w66_and_h66_face/2FL8EvEjHcUei4Ok9us0YkK9iwp.jpg"}
+          ],
+      "director" : "Bill Prady"
+    },
+
+    {
+      "id": 3,
+      "title":"Стрела ",
+      "original_title": "Стрела",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yoPWqFy9crAWPd1mb9UtE7kXKcr.jpg",
+      "release_date": "2012-12-13",
+      "rating": 6.0,
+      "overview": "После кораблекрушения плейбой миллиардер Оливер Куин пропадает и считается погибшим в течение пяти лет, после чего его обнаруживают живым на затерянном острове в Тихом океане. Когда он возвращается домой в Старлинг-Сити, его преданная мать Мойра, столь любимая сестра Теа и лучший друг Томми приветствуют его дома, но они видят, что Оливер изменился после испытаний на острове. Хотя Оливер скрывает правду о человеке, которым он стал…",
+      "genres": ["БОЕВИК", "ПРИКЛЮЧЕНИЯ", "КРИМИНАЛ", "ДРАМА", "ДЕТЕКТИВ", "ФАНТАСТИКА"],
+      "runtime": 42,
+      "cast": 
+          [
+            {"name" : "Stephen Amell", "profile_path" :"https://image.tmdb.org/t/p/w600_and_h900_bestv2/kTe4RYfqFze7N6HX1HEnNfHBZ2w.jpg"},
+            {"name" : "Katie Cassidy ", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lRhzzdmt29n8PDi63QX5MLPAUFz.jpg"},
+            {"name" : "Emily Bett Rickards", "profile_path" :"https://image.tmdb.org/t/p/w600_and_h900_bestv2/zkx3Xwy7w4hFpBNnvfFsKOBQP9V.jpg"},
+            {"name" : "David Ramsey", "profile_path" :"https://image.tmdb.org/t/p/w600_and_h900_bestv2/bXAVYdvDTxqs1FbfBiYqcJuBnEt.jpg"},
+            {"name" : "Willa Holland", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wSn01hjcRFnamCrvhbUJyeMIbxo.jpg"}
+          ],
+      "director" : "Greg Berlanti"
+    },
+
+    {
+      "id": 4,
+      "title":"Шпионка ",
+      "original_title": "Alias",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bMj6iM7TBcceG44vpireA2Axeab.jpg",
+      "release_date": "2005-05-03",
+      "rating": 6.1,
+      "overview": "Переезды по всему миру, борьба с «плохими ребятами», двойная жизнь и опасность, подстерегающая на каждом шагу. Для Сидни Бристоу это — обычный день на её необычной работе. Она — агент сверхсекретного подразделения — группы СД-6. Однажды от своего отца Джека Сидни узнаёт страшную правду: оказывается, она работает на международную шпионскую организацию. Чувствуя себя одураченной, Сидни клянётся уничтожить СД-6. И становится двойным агентом ЦРУ. Теперь она должна хранить в строжайшем секрете двойственность своего существования и от партнёров по СД-6, и от своих близких. А тут еще одно потрясение: Сидни узнаёт правду о своей покойной матери",
+      "genres": ["БОЕВИК И ПРИКЛЮЧЕНИЯ","ДРАМА"],
+      "runtime": 61,
+      "cast": 
+          [
+            {"name" : "Jennifer Garner", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ipLvpX5cE4onFxysARCodQ0EjCD.jpg"},
+            {"name" : "Michael Vartan", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aUwxRx1jVjv8ASYPEt9jIjs4zWF.jpg"},
+            {"name" : "Johnny Galecki", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hukx9wydqjFEu3xXToQWln1PMxN.jpg"},
+            {"name" : "Carl Lumbly", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u6zmYwEWmCsVjrSsE6e5MUVtGHI.jpg"},
+            {"name" : "Victor Garber", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xFgPEfVEqz7Li2xoyjRPEKCjCrH.jpg"}
+          ],
+      "director" : "J.J. Abrams"
+    },
+
+
+    {
+      "id": 5,
+      "title":"Права на престол: Абдулхамид",
+      "original_title": "Payitaht Abdülhamid",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uTYguBLrcna0YPlVNMAvq0gKCnX.jpg",
+      "release_date": "2017-05-03",
+      "rating": 4.8,
+      "overview": "afs",
+      "genres": ["исторические"],
+      "runtime": 61,
+      "cast": 
+          [
+            {"name" : "Jennifer Garner", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ipLvpX5cE4onFxysARCodQ0EjCD.jpg"},
+            {"name" : "Michael Vartan", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/aUwxRx1jVjv8ASYPEt9jIjs4zWF.jpg"},
+            {"name" : "Johnny Galecki", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hukx9wydqjFEu3xXToQWln1PMxN.jpg"},
+            {"name" : "Carl Lumbly", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u6zmYwEWmCsVjrSsE6e5MUVtGHI.jpg"},
+            {"name" : "Victor Garber", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xFgPEfVEqz7Li2xoyjRPEKCjCrH.jpg"}
+          ],
+      "director" : "Сердар Акар"
+    },
+    {
+      "id": 6,
+      "title":"Сверхъестественное",
+      "original_title": "Сверхъестественное",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/d9BStq6MTJZMa7yB2K7FiVJZn9e.jpg",
+      "release_date": "2005-05-03",
+      "rating": 6.1,
+      "overview": "Сериал о приключениях команды профессиональных спецагентов. Их миссия — расследовать преступления, которые каким-то образом связаны со служащими морской пехоты. Группу следователей возглавляет специальный агент Гиббс. Его команда — это экс-детектив Энтони ДиНоззо, выхоженка из Моссад — Зива Давид, специалисты в области судмедэкспертизы — Эбби Шуто и Дональд Маллард, а также профессионал в области IT — Тимоти МакГи.",      "genres": ["БОЕВИК И ПРИКЛЮЧЕНИЯ","ДРАМА"],
+      "runtime": 61,
+      "cast": 
+          [
+            {"name" : "Jensen Ackles", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3PEwDCpJwA6ZKzD1hJdp334EGbp.jpg"},
+            {"name" : "Jared Padalecki", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uQLe1lfEBul3locVlV8nXD6n8TI.jpg"},
+            {"name" : "Misha Collins", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2zT9VQwJgi54N7FMf4QJ2qogJec.jpg"},
+            {"name" : "Alexander Calvert", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yi5mGbTlJd3NWkaDn8D9miViYUI.jpg"},
+            {"name" : "Kim Rhodes", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8xo9xNL4SYmuoLVuttMFwVbXKTI.jpg"}
+          ],
+      "director" : "Eric Kripke"
+    },
+
+    {
+      "id": 7,
+      "title":"Морская полиция: Спецотдел",
+      "original_title": "Морская полиция: Спецотдел",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/q9TVqJSHfJPsEJGHtxHuBvOdKu9.jpg",
+      "release_date": "2005-05-03",
+      "rating": 6.1,
+      "overview": "Сериал о приключениях команды профессиональных спецагентов. Их миссия — расследовать преступления, которые каким-то образом связаны со служащими морской пехоты. Группу следователей возглавляет специальный агент Гиббс. Его команда — это экс-детектив Энтони ДиНоззо, выхоженка из Моссад — Зива Давид, специалисты в области судмедэкспертизы — Эбби Шуто и Дональд Маллард, а также профессионал в области IT — Тимоти МакГи.",      "genres": ["БОЕВИК И ПРИКЛЮЧЕНИЯ","ДРАМА"],
+      "runtime": 61,
+      "cast": 
+          [
+            {"name" : "Mark Harmon", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vzthrZ2QidVi1iMMOYFzAohhVpj.jpg"},
+            {"name" : "Pauley Perrette", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dXpCSxJKgIVLmSXGlK64VOMq3zb.jpg"},
+            {"name" : "Sean Murray", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nRkJoWGHTDp45vbJ61yJdOwGH7u.jpg"},
+            {"name" : "David McCallum", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/yi5mGbTlJd3NWkaDn8D9miViYUI.jpg"},
+            {"name" : "Kim Rhodes", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8xo9xNL4SYmuoLVuttMFwVbXKTI.jpg"}
+          ],
+      "director" : "Donald P. Bellisario"
+    },
+    {
+      "id": 8,
+      "title":"Викинги",
+      "original_title": "Викинги",
+      "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jaLRn7TpDiTwnahhn05gnaiwOZY.jpg",
+      "release_date": "2003-05-03",
+      "rating": 6.6,
+      "overview": "Сериал рассказывает об отряде викингов Рагнара. Он восстал, чтобы стать королём племён викингов. Норвежская легенда гласит, что он был прямым потомком Одина, бога войны и воинов.",      
+      "genres": ["БОЕВИК И ПРИКЛЮЧЕНИЯ","ДРАМА"],
+      "runtime": 41,
+      "cast": 
+          [
+            {"name" : "Alex Høgh Andersen", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ipLvpX5cE4onFxysARCodQ0EjCD.jpg"},
+            {"name" : "Katheryn Winnick", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/k5bAyHknFqwRoFGc1Pmh7JAffWj.jpg"},
+            {"name" : "Johnny Galecki", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hukx9wydqjFEu3xXToQWln1PMxN.jpg"},
+            {"name" : "Jordan Patrick Smith", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hojSqFG4889Mi81FaarYF47cTDY.jpg"},
+            {"name" : "Josefin Asplund", "profile_path" : "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2Tj6Vh61rZYXiMYUVatnuNJ7ekG.jpg"}
+          ],
+      "director" : "Michael Hirst"
+    }
+]

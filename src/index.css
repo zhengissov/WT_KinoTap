@@ -1,0 +1,95 @@
+/* Main rules */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&amp;subset=cyrillic-ext);
+* {
+  font-family: 'Lora', serif;
+}
+
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 30px;
+  background-color: #fafafa;
+  color: #000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media(min-width: 1060px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.head {
+  margin-top: 30px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.imgResponsive {
+  width: 100%;
+  height: auto;
+}
+
+.ui.inverted.menu .violet.active.item, .ui.inverted.violet.menu {
+    background-color: #21314d;
+}
+/* Typography */
+
+.head {
+  transition: all 0.35s ease-out;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.35s ease-out;
+}
+
+
+/* Nav */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  font-weight: 600;
+}
+
+a h:hover, ul a:hover {
+  color: #1DE9B6;
+}
+
+.ds {
+    background-color: #21314d;
+}
+
+.link item {
+    display: flex;
+    align-items: center;
+}

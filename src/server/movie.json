@@ -1,0 +1,511 @@
+[
+    {
+        "id": 1,
+        "title": "Қара Пантера",
+        "original_title": "Black Panther",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bLBUCtMQGJclH36clliPLmljMys.jpg",
+        "release_date": "2018-02-13",
+        "rating": 7.8,
+        "overview": "Капитан Америка: Азамат соғысы фильміндегі оқиғалардан кейін Ваканда патшасы ТЧалла үйіне оралып, көп кешікпей ел ішінде оның билігіне қарсы қозғалыс басталғанын байқайды. Оның тақтан айырылуы әлемдік тәртіптің бұзылуына алып келер еді, сондықтан Қара Пантера өз сауытын қайта киеді.",
+        "genres": [
+            "Боевик",
+            "Фантастика",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 134,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/4jdsjY5jKwoNpCMd5nnJFsDmieY.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Райан Куглер"
+    },
+    {
+        "id": 2,
+        "title": "Тор: Рагнарёк",
+        "original_title": "Thor: Ragnarok",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/oSLd5GYGsiGgzDPKTwQh7wamO8t.jpg",
+        "release_date": "2017-10-25",
+        "rating": 8,
+        "overview": "Тор шексіздік тасын қолға түсірмек болған жұмбақ жауды іздеп Асгардқа оралады. Бұл жерде тақты тартып алған бауыры Локидің кесірінен Рагнарёк оқиғасы жақындап қалғанын көреді. Аңыз бойыншы бұл Асгардтағы соңғы шайқасты білдіреді, нәтижесінде әлем толықтай жойылмақ. Рагнарёктің алдын алу үшін Тор, жолдасы Халктың көмегіне жүгінеді. Олар Рагнарёк туралы аңызды іске асырушы - отты демон Суртурмен бетпе-бет келмекші.",
+        "genres": [
+            "Комедия ",
+            "Боевик ",
+            "Фантастика ",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 130,
+        "cast": [
+            {
+                "name": "Крис Хемсворт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/lrhth7yK9p3vy6p7AabDUM1THKl.jpg"
+            },
+            {
+                "name": "Том Хиддлстон",
+                "profile_path": "https://image.tmdb.org/t/p/w300/qB1lHPFBPIzw6I7EvsciZ5wyUNS.jpg"
+            },
+            {
+                "name": "Кейт Бланшетт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/5HikVWKfkkUa8aLdCMHtREBECIn.jpg"
+            },
+            {
+                "name": "Идрис Эльба",
+                "profile_path": "https://image.tmdb.org/t/p/w300/d9NkfCwczP0TjgrjpF94jF67SK8.jpg"
+            },
+            {
+                "name": "Тесса Томпсон",
+                "profile_path": "https://image.tmdb.org/t/p/w300/fycqdiiM6dsNSbnONBVVQ57ILV1.jpg"
+            },
+            {
+                "name": "Джефф Голдблюм",
+                "profile_path": "https://image.tmdb.org/t/p/w300/w9frUiRJUyRnWvFqihtS31q6LWc.jpg"
+            }
+        ],
+        "director": "Тайка Вайтити"
+    },
+    {
+        "id": 3,
+        "title": "Жүзбен жүгіруші 2049",
+        "original_title": "Blade Runner 2049",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+        "release_date": "2017-10-04",
+        "rating": 7.4,
+        "overview": "Болашақтың әлемінде адамдар мен ауыр жұмыстар үшін жасалған репликанттар қатар өмір сүреді. Полиция офицері Кейдің жұмысы - ушығып келе жатқан шиеленіс жағдайында репликанттарды бақылауда ұстау. Бірде ол бүкіл адамзатқа қауіп төндіретін құпия ақпаратты біледі. Құпияның сырын ашамын деп жүріп отыз жыл бұрын із-түссіз жоғалып кеткен офицер Рик Декардты табады.",
+        "genres": [
+            "Триллер",
+            "Фантастика"
+        ],
+        "runtime": 164,
+        "cast": [
+            {
+                "name": "Райан Гослинг",
+                "profile_path": "https://image.tmdb.org/t/p/w300/4X1wJo5xHm3YICPWZqVCPgLBEJ7.jpg"
+            },
+            {
+                "name": "Харрисон Форд",
+                "profile_path": "https://image.tmdb.org/t/p/w300/7LOTdRfHU1H1qHBxpUv3jT04eWB.jpg"
+            },
+            {
+                "name": "Ана де Армас",
+                "profile_path": "https://image.tmdb.org/t/p/w300/hCx6nX8CsL7MIqn6DPse5wyQQY7.jpg"
+            },
+            {
+                "name": "Робин Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/tXfQTgcIEPP7gtVdJ44ZxZPhacn.jpg"
+            },
+            {
+                "name": "Джаред Лето",
+                "profile_path": "https://image.tmdb.org/t/p/w300/msugySeTCyCmlRWtyB6sMixTQYY.jpg"
+            },
+            {
+                "name": "Сильвия Хукс",
+                "profile_path": "https://image.tmdb.org/t/p/w300/huzjezIwcBePLkKvd1mOKghhF94.jpg"
+            }
+        ],
+        "director": "Дени Вильнёв"
+    },
+    {
+        "id": 4,
+        "title": "Дюнкерк",
+        "original_title": "Dunkirk",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg",
+        "release_date": "2017-07-19",
+        "rating": 7.4,
+        "overview": "Фильмдегі оқиға Екінші дүниежүзілік соғыс кезінде өрбиді. Одақтас елдердің жауынгерлері Франция жағалауында неміс әскерінің қыспағында қалады. Саны үш жүз мыңнан асатын британ, француз, бельгиялық сарбаздарды эвакуациялау операциясына Ұлыбритания әскерімен бірге балықшы, сауда және жүк қайықтары да атсалысады",
+        "genres": [
+            "Драма ",
+            "Тарихи ",
+            "Әскери"
+        ],
+        "runtime": 106,
+        "cast": [
+            {
+                "name": "Финн Уайтхед",
+                "profile_path": "https://image.tmdb.org/t/p/w300/4Mcr9R91aAewAhG03HOfgTrF2WW.jpg"
+            },
+            {
+                "name": "Том Глинн-Карни",
+                "profile_path": "https://image.tmdb.org/t/p/w300/9J32nef6iZT7g7ah3gF4xznVRU5.jpg"
+            },
+            {
+                "name": "Джек Лауден",
+                "profile_path": "https://image.tmdb.org/t/p/w300/fKfaubGWh4QnupDAQ0K2lWBjJYX.jpg"
+            },
+            {
+                "name": "Гарри Стайлс",
+                "profile_path": "https://image.tmdb.org/t/p/w300/4xE26jBRq4cLbl8ZIlxGEYqKaHw.jpg"
+            },
+            {
+                "name": "Анайрин Барнард",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Джеймс Д’Арси",
+                "profile_path": "https://image.tmdb.org/t/p/w300/geQAp8kKkMDXE5iCcC3rf7z4Fx3.jpg"
+            }
+        ],
+        "director": "Кристофер Нолан"
+    },
+    {
+        "id": 5,
+        "title": "Маймылдар ғаламшары үшін соғыс",
+        "original_title": "War for the Planet of the Apes",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3vYhLLxrTtZLysXtIWktmd57Snv.jpg",
+        "release_date": "2017-07-11",
+        "rating": 6.8,
+        "overview": "Генетикалық модификацияға ұшыраған маймылдар армиясын жаңа сынақ күтіп тұр: олар қатігез полковник бастаған адамдар әскеріне қарсы тұрады. Қатары сирегенін көрген маймылдар көсемі Цезарь бұл текетіреске түпкілікті нүкте қоймақ. Ақтық соғыс нәтижесі Жердің қожайыны кім екенін анықтайды - не маймылдар, не адамдар.",
+        "genres": [
+            "Драма ",
+            "Триллер  ",
+            "Боевик ",
+            "Фантастика ",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 140,
+        "cast": [
+            {
+                "name": "Энди Серкис",
+                "profile_path": "https://image.tmdb.org/t/p/w300/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+            },
+            {
+                "name": "Вуди Харрельсон",
+                "profile_path": "https://image.tmdb.org/t/p/w300/1ecdooAHICUhCZKKEKlFtccEmTU.jpg"
+            },
+            {
+                "name": "Стив Зан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/tcRHqtdi4wM8hlZ3MjPDWgePp7L.jpg"
+            },
+            {
+                "name": "Карин Коновал",
+                "profile_path": "https://image.tmdb.org/t/p/w300/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
+            },
+            {
+                "name": "Амайя Миллер",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Терри Нотари",
+                "profile_path": "https://image.tmdb.org/t/p/w300/4cXAEMnYNjSOaI9stdSWfhNn49A.jpg"
+            }
+        ],
+        "director": "Мэтт Ривз"
+    },
+    {
+        "id": 6,
+        "title": "Әлдекім",
+        "original_title": "IT",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+        "release_date": "2017-09-05",
+        "rating": 7.1,
+        "overview": "Фильмнің оқиғасы Дерри қаласында болады. Бұл елді мекенде балалардың жоғалуы көбейіп кетеді. Бірнеше оқушы бірігіп, осы қылмысқа қатысы бар 'Әлдекім' атанып кеткен құбыжықты табуды көздейді.",
+        "genres": [
+            "Драма",
+            "Үрейлі"
+        ],
+        "runtime": 135,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Андрес Мускетти"
+    },
+    {
+        "id": 7,
+        "title": "Азат етілген Джанго",
+        "original_title": "Django Unchained",
+        "poster_path": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5WJnxuw41sddupf8cwOxYftuvJG.jpg",
+        "release_date": "2012-12-25",
+        "rating": 7.9,
+        "overview": " 'Дантист' деген лақап аты бар ақылы түрде қылмыскерлерді жоюмен айналысатын Кинг Шульц Жабайы батыста қауіпті банданың көзін құртпақ болады. Оған бұл іске сенімді көмекші қажет. Осы кезде қашып жүрген Джанго есімді құлды кездестіреді. Десек те, жаңа көмекшінің бұл іске қатысты өз есебі бар.",
+        "genres": [
+            "Комедия ",
+            "Драма ",
+            "Қызық оқиғалы",
+            "Вестерн"
+        ],
+        "runtime": 165,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Квентин Тарантино"
+    },
+    {
+        "id": 8,
+        "title": "Уолл-стрит қасқыры",
+        "original_title": "The Wolf of Wall Street",
+        "poster_path": "https://image.tmdb.org/t/p/w300/vK1o5rZGqxyovfIhZyMELhk03wO.jpg",
+        "release_date": "2013-12-25",
+        "rating": 7.9,
+        "overview": "Джордан Белфорт өзінің брокерлік кеңсесін 1987 жылы ашты, бірақ он жыл өткеннен кейін қаржы қылмыстарын жасады деген айыппен сотталады. Ол Уолл-стритта жүргенде әдет қылған алкоголь және есірткі тәуелділігінен құтылды, екі кітап шығарды, енді табысқа жету туралы дәріс оқып жүр.",
+        "genres": [
+            "Комедия ",
+            "Драма ",
+            "Қылмыстық ",
+            "Өмірбаян"
+        ],
+        "runtime": 180,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Мартин Скорсезе"
+    },
+    {
+        "id": 9,
+        "title": "Пидің өмірі",
+        "original_title": "Life of Pi",
+        "poster_path": "https://image.tmdb.org/t/p/w300/sLYdcz7easaS7CmJGwQcVVYZqiF.jpg",
+        "release_date": "2012-11-20",
+        "rating": 7.2,
+        "overview": "Фильмнің басты кейіпкері мұхиттың ортасында кішкентай қайық үстінде қаһарлы бенгаль жолбарысымен қалады.",
+        "genres": [
+            "Комедия ",
+            "Қызық оқиғалы "
+        ],
+        "runtime": 127,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Энг Ли"
+    },
+    {
+        "id": 10,
+        "title": "Артур патша: Қылыш туралы аңыз",
+        "original_title": "King Arthur: Legend of the Sword",
+        "poster_path": "https://image.tmdb.org/t/p/w300/qyXPqzlCWf3T9VEpBtquUQZwsgi.jpg",
+        "release_date": "2017-05-10",
+        "rating": 6.5,
+        "overview": "Сюжет Лондониумның төңірегінде бандасымен бірге тіршілік еткен жас Артур туралы баяндайды. Өзінің шыққан тегін мақтан тұтпайды, тіпті қызықпайды да. Ол сиқырлы қылыш Экскалибурды көргенге дейін осылай өмір сүреді. Осыдан бастап Артур өзгереді. Ол ғашық болады, тойтарыс беруші топқа қосылады, ата-анасын өлтірген Вортигемді тақтан тайдыратын адамдарды маңайына жинайды. ",
+        "genres": [
+            "Драма",
+            "Фэнтези",
+            "Боевик ",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 126,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Гай Ричи"
+    },
+    {
+        "id": 11,
+        "title": "Ғажап әйел",
+        "original_title": "Wonder Woman",
+        "poster_path": "https://image.tmdb.org/t/p/w300/imekS7f1OuHyUP2LAiTEM0zBzUz.jpg",
+        "release_date": "2017-05-30",
+        "rating": 7.2,
+        "overview": "Ғажап Әйел атанғанға дейін ол - амазондықтар ханшайымы Диана еді. Оны жастайынан жауынгерлікке баулыды. Сырт әлемнен келген америкалық пилот амазондықтар тұратын аралға құлап, сол арқылы әлемде болып жатқан соғыс туралы естіп біледі. Диана өз үйін тастап, қауіппен күресуге аттанады.",
+        "genres": [
+            "Фэнтези",
+            "Боевик",
+            "Фантастика",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 141,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Пэтти Дженкинс"
+    },
+    {
+        "id": 12,
+        "title": "Әділет лигасы",
+        "original_title": "Justice League",
+        "poster_path": "https://image.tmdb.org/t/p/w300/eifGNCSDuxJeS1loAXil5bIGgvC.jpg",
+        "release_date": "2017-11-15",
+        "rating": 6.4,
+        "overview": "Суперменнің өзін құрбан ету оқиғасынан кейін Брюс Уэйн адамзатқа деген үмітке қайта ие болады. Ол Диана Принстен (Ғажап әйел) қолдау тауып, күшті қарсылыспен күресуге қол жинайды. Екеуі Акваменді, Киборг пен Флэшті қатарларына қосады. Алайда әлемге төнген қауіп бұрынғыдан да жойқын болмақ.",
+        "genres": [
+            "Фэнтези",
+            "Боевик",
+            "Фантастика",
+            "Қызық оқиғалы"
+        ],
+        "runtime": 110,
+        "cast": [
+            {
+                "name": "Чедвик Боузман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Майкл Б. Джордан",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xjMZd0k7G0nN6BXTjQBzf3Gyrz7.jpg"
+            },
+            {
+                "name": "Лупита Нионго",
+                "profile_path": "https://image.tmdb.org/t/p/w300/y3p0OMzIuAmcNt700RayK5A0k6t.jpg"
+            },
+            {
+                "name": "Дэниэл Калуя",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xE2sR6skskfCmbVKkebbDXSURiT.jpg"
+            },
+            {
+                "name": "Летишиа Райт",
+                "profile_path": "https://image.tmdb.org/t/p/w300/xgo39kFf6rAynb1i9J1BeLfSXxg.jpg"
+            },
+            {
+                "name": "Мартин Фриман",
+                "profile_path": "https://image.tmdb.org/t/p/w300/ashlWz2KDQTbo8NPUbVOwcB3zXJ.jpg"
+            }
+        ],
+        "director": "Зак Снайдер"
+    }
+]

@@ -1,0 +1,15 @@
+.container2{
+	margin-top: 30px;
+	height: 550px;
+	background-color: #ff0000;
+	background-repeat: no-repeat;
+	background-size: 960px 550px;
+	text-align: center;
+	background-image: url(https://trakt.tv/assets/home/bg/4@2x-dcb264bc2c40ee05d79fb7ec1bbd5bdf.jpg);
+}
+
+.title{
+	position: absolute;
+	margin-top: 300px;
+	color: #fff;
+}

@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FF0000;
+}
+
+
+.imgResponsive2{
+  width: 190px;
+  height: 120px;
+  border: none;
+  float: left; 
+  margin: 0px 15px 15px 0px;
+
+}
+
+.NewsDesc{
+  display: inline-block;
+}
+
+@media(min-width: 576px) {
+  .newMovies {
+    justify-content: space-between;
+  }
+  .newMovies a {
+    width: 48%;
+  }
+}
+
+@media(min-width: 768px) {
+  .newMovies a {
+    width: 31.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .newMovies a {
+    width: 23%;
+  }
+}
+
+.newsTitle{
+  font-size: 18px;
+  color: #0000FF;
+}

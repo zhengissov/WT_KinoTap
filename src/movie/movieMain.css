@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.newMovies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.newMovies a {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+@media(min-width: 576px) {
+  .newMovies {
+    justify-content: space-between;
+  }
+  .newMovies a {
+    width: 48%;
+  }
+}
+
+@media(min-width: 768px) {
+  .newMovies a {
+    width: 31.5%;
+  }
+}
+
+@media(min-width: 992px) {
+  .newMovies a {
+    width: 23%;
+  }
+}
+
+.movieLink {
+  position: relative;
+}
+
+.sort1{
+  float: right;
+  font-size: 14px;
+  width: 260px;
+  margin-bottom: 25px;
+}
+.movieInfo {
+    visibility: hidden;
+    background-color: rgba(255,255,255,0.9);
+    position: relative;
+    top: -40px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movieTitle{
+  margin-top: -30px;
+  font-weight: 400;
+}
+.movieLink:hover .movieInfo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.quote{
+  font-size: 24px;
+  margin-top: 25px;
+}
+
