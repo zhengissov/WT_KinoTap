@@ -14,8 +14,9 @@ export class SignIn extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.loggedIn = this.loggedIn.bind(this);
   }
-    
+
   componentDidMount() {
 
   }
@@ -32,10 +33,17 @@ export class SignIn extends React.Component {
           .send({username: this.state.username})
           .send({password: this.state.password})
           .then(res => {
-            console.log(res.token) // Setting the token in localStorage
-            
+            console.log(res);
+             console.log(res.body.token);
+            localStorage.setItem('id_token', res.body.token);
         })
   }
+
+   loggedIn() {
+        // Checks if there is a saved token and it's still valid
+        const token = this.getToken() // GEtting token from localstorage
+        return !!token && !this.isTokenExpired(token) // handwaiving here
+    }
 
   render() {
     return(
@@ -61,9 +69,6 @@ export class SignIn extends React.Component {
 
           </form>
           <h>{this.state.info}</h>
-          <div class="form-footer">
-            <p>New to Trakt.tv? <a href="http://localhost:3001/auth/join">Join now</a></p>
-          </div>
         </div>
       </div>
 

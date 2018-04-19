@@ -23,8 +23,11 @@ class App extends React.Component {
     };
   }
 
+
   render() {
-    return (
+    let token = localStorage.getItem('id_token');
+    if(!token){
+       return (
       <div>
       <Router>
       <div>
@@ -75,6 +78,7 @@ class App extends React.Component {
       <Route path={'/movie/:id'} component={Movie} />
       <Route path={'/cast/:id'} component={CastDetails} />
       <Route path={'/news/:id'} component={News} />
+      <Route path={'/profile'} component={Profile} />
     </div>
  
     <div class="ui simple dropdown item">
@@ -104,6 +108,89 @@ class App extends React.Component {
 
       </div>
     );
+    }
+    else{
+       return (
+      <div>
+      <Router>
+      <div>
+    <div>
+        <div className="ui violet large borderless inverted menu">
+        <div className="ui container">
+        
+        <a class="link item">
+            <Link to={'/'}><h style={{"font-size": "22px"}}>KinoTap</h></Link>
+          </a>
+        <div class="right menu">
+
+        <Link to={'/movieMain'} class="link item" aria-current="false">
+              <span> Кинодерек </span>
+        </Link>
+        
+        <Link to={'/newsMain'} class="link item" aria-current="false">
+              <span> Жаңалықтар </span>
+        </Link>
+        <div class="ui simple dropdown item" class="link item" aria-current="false">
+
+          <div class="ui simple dropdown item">
+    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
+    <div class="menu">
+        <a class="item"><i class="fa fa-users"></i> Players</a>
+        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
+    </div>
+    </div>
+
+        </div>
+
+        
+        <div class="item">
+                <div>
+                  <Link to={'/profile'} class="ui large basic inverted button" role="button" >Профиль</Link>
+                </div>
+            </div>
+        </div>
+
+      </div>
+        </div>
+       
+      <Route exact path="/movieMain" component={MovieMain} />
+      <Route path="/newsMain" component={NewsMain} />
+      <Route path={'/auth/signin'} component={SignIn} />
+      <Route path={'/auth/join'} component={Join} />
+      <Route path={'/movie/:id'} component={Movie} />
+      <Route path={'/cast/:id'} component={CastDetails} />
+      <Route path={'/news/:id'} component={News} />
+      <Route path={'/profile'} component={Profile} />
+    </div>
+ 
+    <div class="ui simple dropdown item">
+    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
+    <div class="menu">
+        <a class="item"><i class="fa fa-users"></i> Players</a>
+        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
+    </div>
+</div>
+
+          <Dropdown text='Рейтингтер' class="simple dropdown item">
+            <Dropdown.Menu style={{"marginTop": "50px"}}>
+              <Dropdown.Item>
+                <Link to={'/'} class="link item" aria-current="false">
+                  <span> Үздік фильмдер </span>
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to={'/'} class="link item" aria-current="false">
+                  <span> Табыс рекордтары </span>
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          </div>
+ </Router>
+
+      </div>
+    );
+    }
   }
 }
 

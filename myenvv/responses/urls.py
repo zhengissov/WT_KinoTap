@@ -11,5 +11,6 @@ urlpatterns = [
     path('news/<int:news_id>/', views.news_detail),
     path('auth/login/', views.user_login),
     path('auth/join/', views.user_register),
-    path('user_detail/', views.user_detail),
+    path('profile/<int:user_id>/', views.user_movies),
+    path('profile/movieAdd/', views.movie_add),
 ]

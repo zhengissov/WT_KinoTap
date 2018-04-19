@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Form} from '../form/form';
 import './join.css';
+import { withRouter } from 'react-router-dom'
 
 import Request from 'superagent';
 
@@ -79,9 +80,7 @@ export class Join extends React.Component {
               <input type="submit" class="button" title="Join Us" value="Join Us"></input>
             </div>
           </form>
-          <div class="form-footer">
-            <p>Already a member?  <a href="http://localhost:3001/auth/signin">Sign in now</a></p>
-          </div>
+          
         </div>
 
       </div>

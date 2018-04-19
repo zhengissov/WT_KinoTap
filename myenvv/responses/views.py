@@ -3,8 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 
 from rest_framework.parsers import JSONParser
 
-from .models import Movie, Cast, MovieCast, News
-from .serializers import MovieSerializer, CastSerializer, NewsSerializer
+from .models import Movie, Cast, MovieCast, News, UserMovies
+from .serializers import MovieSerializer, CastSerializer, NewsSerializer, UserMoviesSerializer
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth.models import User
 from django.contrib.auth import *
@@ -18,7 +18,6 @@ def movie(request):
 	    movie = Movie.objects.all()
 	    ser = MovieSerializer(movie, many=True)
 	    return JsonResponse(ser.data, safe=False)
-
 
 def cast(request):
 	if request.method == "GET":
@@ -126,3 +125,27 @@ def user_register(request):
 @csrf_exempt
 def user_detail(request):
   return JsonResponse({'user_detail' : request.user.username})
+
+@csrf_exempt
+def user_movies(request, user_id):
+  try:
+    movieIds = UserMovies.objects.filter(user_id=user_id)
+  except Exception as e:
+    return JsonResponse({"error": str(e)}, status=404)
+
+  array = (movieIds.values_list('movieid', flat=True))
+  UserMoviesList = Movie.objects.filter(id__in=array)
+  if request.method == "GET":
+    ser = MovieSerializer(UserMoviesList, many=True)
+    return JsonResponse(ser.data, safe=False)
+ 
+@csrf_exempt
+def movie_add(request):
+    if request.method == 'POST':
+      data = JSONParser().parse(request)
+      print (data)
+      ser = UserMoviesSerializer(data=data)
+      if ser.is_valid():
+        ser.save()
+        return JsonResponse(ser.data, status=201)
+      return JsonResponse(ser.errors, status=400)

@@ -34,6 +34,6 @@ class News(models.Model):
 	overview = models.CharField(max_length=2000)
 	viewCnt = models.IntegerField(default=0)
 
-class Seen(models.Model):
-    username = models.CharField(max_length=150)
-    movieid = models.ForeignKey('Movie', default=1, on_delete=models.CASCADE)
+class UserMovies(models.Model):
+    user_id = models.IntegerField(default=0)
+    movieid = models.IntegerField(default=0)
