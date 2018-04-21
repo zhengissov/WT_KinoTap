@@ -21,7 +21,7 @@ class NewsSerializer(serializers.ModelSerializer):
     fields = "__all__"
 
 class UserMoviesSerializer(serializers.ModelSerializer):
-  
+
   class Meta:
     model = UserMovies
     fields = "__all__"

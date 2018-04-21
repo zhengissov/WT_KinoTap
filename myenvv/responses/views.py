@@ -60,7 +60,6 @@ def movieCast_detail(request, cast_id):
     ser = MovieSerializer(movieCastDetails, many=True)
     return JsonResponse(ser.data, safe=False)
 
-
 @csrf_exempt
 def castMovie_detail(request, movie_id):
   try:
@@ -109,6 +108,7 @@ def user_login(request):
     else:
         return JsonResponse({'output' : "404.html"})
 
+
 @csrf_exempt
 def user_register(request):
     if request.method == 'POST':
@@ -116,11 +116,12 @@ def user_register(request):
         print (form)
         if form.is_valid():
             new_user = form.save()
-            return JsonResponse(new_user)
+            login(request, new_user)
+            return HttpResponse('success')
         else:
-            return HttpResponse("errpr")
+            return JsonResponse({'output' : "Username or Password wrong!"})
     else:
-        return HttpResponse("404.html")
+        return JsonResponse({'output' : "404.html"})
 
 @csrf_exempt
 def user_detail(request):
@@ -142,7 +143,7 @@ def user_movies(request, user_id):
 @csrf_exempt
 def movie_add(request):
     if request.method == 'POST':
-      data = JSONParser().parse(request)
+      data = request.POST
       print (data)
       ser = UserMoviesSerializer(data=data)
       if ser.is_valid():
