@@ -9,7 +9,10 @@ import Request from 'superagent';
 export class Join extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {users: [],username: '', email: '', password: '',confirm_password: '',cnt: 1, movieList: ["2","3"]};
+    this.state = {
+      users: [],
+      error: ""
+    };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleChange2 = this.handleChange2.bind(this);
@@ -46,7 +49,24 @@ export class Join extends React.Component {
           .send({password1: this.state.password})
           .send({password2: this.state.password})
           .send({email: this.state.email})
-          .then((callback) => {console.log(callback)})    
+          .then((callback) => {
+            console.log(callback.text);
+            if(callback.text=="success"){
+              alert("asd");
+              let url = "http://localhost:8000/api-token-auth/"
+      Request.post(url)
+          .type('form')
+          .send({username: this.state.username})
+          .send({password: this.state.password})
+          .then(res => {
+            console.log(res);
+            console.log(res.body.token);
+            localStorage.setItem('id_token', res.body.token);
+            window.location = "http://localhost:3000/profile";
+        })
+            }
+            this.setState({error: "error"})
+          })
   }
 
   render() {
@@ -80,8 +100,10 @@ export class Join extends React.Component {
               <input type="submit" class="button" title="Join Us" value="Join Us"></input>
             </div>
           </form>
-          
+          <br style={{clear: ''}} />
+          <h3>{this.state.error}</h3>
         </div>
+
 
       </div>
 

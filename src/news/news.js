@@ -9,7 +9,9 @@ export class News extends React.Component {
     super(props);
     this.state = {
       news: {},
+      comm:{text: '',user: ''},
       news_id: props.match.params.id,
+      cur_comm:''
     }
   }
 
@@ -21,6 +23,16 @@ componentDidMount() {
         news: obj
       })
     })
+  }
+
+  handleChange(e){
+    this.setState({
+      cur_comm: e.target.cur_comm
+    });
+  }
+
+  saveComm(){
+
   }
 
   render() {
@@ -43,10 +55,25 @@ componentDidMount() {
             </ul>
             <br style={{clear: ''}} />
             <p style={{"white-space": "pre-wrap"}}>{this.state.news.overview}</p>
-            
-
           </div>
+
         </div>
+{/*}
+          <div class = "Comments"> 
+              <input  placeholder = "Your Comment" value = {this.state.cur_comm} onChange = {this.handleChange}/>
+              <button onClick = {this.saveComm}>Send</button>
+              {this.state.comm.map((comm, index) => {
+            return (
+              <div>
+                <h4>comm.text</h4>
+                <h5>comm.user</h5>
+              </div>
+            )
+          })}
+          </div> 
+*/}
+
+          
       </div>
       );  
   }

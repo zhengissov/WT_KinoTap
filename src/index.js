@@ -21,20 +21,24 @@ class App extends React.Component {
     this.state = {
       user: [],
     };
+    this.logout = this.logout.bind(this);
   }
 
+  logout(){
+    localStorage.removeItem('id_token');
+    window.location = "http://localhost:3000/";
+  }
 
   render() {
     let token = localStorage.getItem('id_token');
     if(!token){
        return (
-      <div>
+      <div >
       <Router>
       <div>
     <div>
         <div className="ui violet large borderless inverted menu">
         <div className="ui container">
-        
         <a class="link item">
             <Link to={'/'}><h style={{"font-size": "22px"}}>KinoTap</h></Link>
           </a>
@@ -47,16 +51,14 @@ class App extends React.Component {
         <Link to={'/newsMain'} class="link item" aria-current="false">
               <span> Жаңалықтар </span>
         </Link>
-        <div class="ui simple dropdown item" class="link item" aria-current="false">
+   
 
-          <div class="ui simple dropdown item">
-    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
-    <div class="menu">
-        <a class="item"><i class="fa fa-users"></i> Players</a>
-        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
-    </div>
-    </div>
-
+        <div class="ui simple dropdown item">
+          <i class="fa fa-users"></i> Рейтингтер <i class="fa fa-caret-down"></i>
+          <div class="menu">
+            <a class="item" > <div><Link to={'/movieMain'} > ҮЗДІК ФИЛЬМДЕР </Link> </div> </a> 
+            <a class="item"> <div><Link to={'/movieMain'} > ТАБЫС РЕКОРДТАРЫ </Link> </div></a>
+          </div>
         </div>
 
         
@@ -81,28 +83,6 @@ class App extends React.Component {
       <Route path={'/profile'} component={Profile} />
     </div>
  
-    <div class="ui simple dropdown item">
-    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
-    <div class="menu">
-        <a class="item"><i class="fa fa-users"></i> Players</a>
-        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
-    </div>
-</div>
-
-          <Dropdown text='Рейтингтер' class="simple dropdown item">
-            <Dropdown.Menu style={{"marginTop": "50px"}}>
-              <Dropdown.Item>
-                <Link to={'/'} class="link item" aria-current="false">
-                  <span> Үздік фильмдер </span>
-                </Link>
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <Link to={'/'} class="link item" aria-current="false">
-                  <span> Табыс рекордтары </span>
-                </Link>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
           </div>
  </Router>
 
@@ -130,26 +110,25 @@ class App extends React.Component {
         <Link to={'/newsMain'} class="link item" aria-current="false">
               <span> Жаңалықтар </span>
         </Link>
-        <div class="ui simple dropdown item" class="link item" aria-current="false">
 
-          <div class="ui simple dropdown item">
-    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
+        <div class="ui simple dropdown item">
+    <i class="fa fa-users"></i> Рейтингтер <i class="fa fa-caret-down"></i>
     <div class="menu">
-        <a class="item"><i class="fa fa-users"></i> Players</a>
-        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
+         <a class="item" > <div><Link to={'/movieMain'} > ҮЗДІК ФИЛЬМДЕР </Link> </div> </a> 
+        <a class="item"> <div><Link to={'/movieMain'} > ТАБЫС РЕКОРДТАРЫ </Link> </div></a>
     </div>
     </div>
 
-        </div>
+    <div class="ui simple dropdown item">
+    <div class="ui large basic inverted button"> Профиль </div>
+    <div class="menu">
+         <a class="item" > <div><Link to={'/profile'} > Профиль </Link> </div> </a> 
+        <a class="item" onClick={this.logout}> <div> Шығу </div></a>
+    </div>
 
-        
-        <div class="item">
-                <div>
-                  <Link to={'/profile'} class="ui large basic inverted button" role="button" >Профиль</Link>
-                </div>
-            </div>
+    
+    </div>
         </div>
-
       </div>
         </div>
        
@@ -162,29 +141,6 @@ class App extends React.Component {
       <Route path={'/news/:id'} component={News} />
       <Route path={'/profile'} component={Profile} />
     </div>
- 
-    <div class="ui simple dropdown item">
-    <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
-    <div class="menu">
-        <a class="item"><i class="fa fa-users"></i> Players</a>
-        <a class="item"><i class="fa fa-user-md"></i> Staff</a>
-    </div>
-</div>
-
-          <Dropdown text='Рейтингтер' class="simple dropdown item">
-            <Dropdown.Menu style={{"marginTop": "50px"}}>
-              <Dropdown.Item>
-                <Link to={'/'} class="link item" aria-current="false">
-                  <span> Үздік фильмдер </span>
-                </Link>
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <Link to={'/'} class="link item" aria-current="false">
-                  <span> Табыс рекордтары </span>
-                </Link>
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
           </div>
  </Router>
 

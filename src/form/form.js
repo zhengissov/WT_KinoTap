@@ -27,6 +27,15 @@ export class Form extends React.Component {
         movie: obj
       })
     })
+
+    let url2 = "http://localhost:8000/kinotap/api/v1/news/"
+    Request.get(url2).then((response) => {
+      let obj = JSON.parse(response.text);
+      console.log(obj);
+      this.setState ({
+        news: obj
+      })
+    })
   }
 
   handleSubmit(e) {
@@ -44,14 +53,6 @@ export class Form extends React.Component {
     let a = this.props.type;
     if(a=="movie"){
       let updatedList = this.state.movie.filter((data) => {
-      return data.title.toLowerCase().indexOf(val) !== -1;
-      });
-      this.setState ({
-      results: updatedList
-    })
-    }
-    else if(a=="tv"){
-      let updatedList = this.state.tv.filter((data) => {
       return data.title.toLowerCase().indexOf(val) !== -1;
       });
       this.setState ({

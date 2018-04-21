@@ -5,6 +5,7 @@ import {Cast} from '../cast/cast';
 import './movie.css';
 import Request from 'superagent'
 import StarRatingComponent from 'react-star-rating-component';
+import decode from 'jwt-decode';
 
 export class Movie extends React.Component {
   constructor(props) {
@@ -14,10 +15,8 @@ export class Movie extends React.Component {
         //genres: [],
         //cast: [],
       },
-        users: [],
-        user: [],
-        isOpen: false,
-        movie_id: props.match.params.id,
+      user: [],
+      movie_id: props.match.params.id,
     }
     this.addMovie = this.addMovie.bind(this);
     this.openModal = this.openModal.bind(this)
@@ -32,25 +31,30 @@ componentDidMount() {
         movie: obj
       })
     })
+
+
+    let token = localStorage.getItem('id_token');
+    console.log(token);
+    if(!!token){
+      this.setState({
+        user: decode(token)
+      })      
+    }
+
   }
 
   addMovie(){
-    var newArray = this.state.user;    
-    newArray.movieList.push(window.location.pathname.substring(7)-1);
-    this.setState({
-      user: newArray
-    });
-
-    var arr = [newArray];
-    let url2 = "http://localhost:3000/api/timers5"
-            Request.put(url2)
-            .type('form')
-            .send({ id: this.state.users[0].id })
-            .send({ email: this.state.users[0].email})
-            .send({ username: this.state.users[0].username})
-            .send({ password: this.state.users[0].password})
-            .send({ movieList: newArray.movieList})
-            .then((callback) => {})
+    console.log(this.state.user.user_id);
+    console.log(this.state.movie.id);
+   let url = "http://localhost:8000/kinotap/api/v1/profile/movieAdd/"
+      Request.post(url)
+          .type('form')
+          .send({user_id: this.state.user.user_id})
+          .send({movieid: this.state.movie.id})
+          .then(res => {
+            console.log(res);
+            alert("added");
+        })
   }
 
     onStarClick(nextValue, prevValue, name) {
@@ -61,7 +65,7 @@ componentDidMount() {
     }
 
   render() {
-
+    console.log(this.state.movie);
     return(
       <div className="container">
         <Form id="form" type="movie"/>
@@ -69,6 +73,13 @@ componentDidMount() {
 
           <div className="poster">
             <img src={this.state.movie.poster_path} alt={`${this.state.movie.title} poster`} className="posterImg" />
+            <h2>Rating from state: {this.state.movie.rating}</h2>
+        <StarRatingComponent 
+          name="rate1" 
+          starCount={10}
+          value={this.state.movie.rating}
+          onStarClick={this.onStarClick.bind(this)}
+        />
           </div>
 
           <div className="movieDetails">
@@ -91,13 +102,8 @@ componentDidMount() {
            </div>
 
            <div style={{fontSize: 26}}>
-        <h2>Rating from state: {this.state.movie.rating}</h2>
-        <StarRatingComponent 
-          name="rate1" 
-          starCount={10}
-          value={this.state.movie.rating}
-          onStarClick={this.onStarClick.bind(this)}
-        />
+        <h2>{this.state.movie.rating}</h2>
+ 
         </div>
           </div>
         </div>

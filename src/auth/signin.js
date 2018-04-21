@@ -4,13 +4,14 @@ import {Form} from '../form/form';
 import './signin.css';
 import Request from 'superagent';
 import decode from 'jwt-decode';
+import  { Redirect } from 'react-router-dom'
+
 
 var info = ' ';
 export class SignIn extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {users: [],username: '', id: '',email: '', password: '',confirm_password: '',
-    info:'  ',cnt: 1, movieList: []};
+    this.state = {users: [],error: ""};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -27,6 +28,7 @@ export class SignIn extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
+    
     let url = "http://localhost:8000/api-token-auth/"
       Request.post(url)
           .type('form')
@@ -34,8 +36,14 @@ export class SignIn extends React.Component {
           .send({password: this.state.password})
           .then(res => {
             console.log(res);
-             console.log(res.body.token);
+            console.log(res.body.token);
             localStorage.setItem('id_token', res.body.token);
+            if (this.loggedIn){
+                window.location = "http://localhost:3000/profile";
+            }
+            else{
+              this.setState({error: "error"})
+            }
         })
   }
 
@@ -46,6 +54,7 @@ export class SignIn extends React.Component {
     }
 
   render() {
+    //  localStorage.removeItem('id_token');
     return(
       <div className="container">
       <div class="form-wrapper">
@@ -65,13 +74,11 @@ export class SignIn extends React.Component {
             <div class="button-panel">
               <input type="submit" class="button" title="Sign In" value="Sign In"></input>
             </div>
-
-
           </form>
-          <h>{this.state.info}</h>
+          <br style={{clear: ''}} />
+          <h3>{this.state.error}</h3>
         </div>
       </div>
-
     );
   }
 }
